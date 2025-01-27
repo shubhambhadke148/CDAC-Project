@@ -1,0 +1,64 @@
+### *STM32 Microcontroller:*
+1. *Architecture and Features:*
+   - Explain the architecture of the STM32 microcontroller.
+   - What are the differences between STM32F1, STM32F4, and STM32L series?
+   - How do you configure the clock settings in STM32?
+   - What are the different power-saving modes available in STM32?
+
+2. *Programming and Debugging:*
+   - How do you set up and use the GPIO pins in STM32?
+   - What is the purpose of the NVIC in STM32, and how do you use it?
+   - Describe how to implement interrupt handling in STM32.
+   - How do you use the STM32 CubeMX tool, and what are its benefits?
+
+3. *Peripherals:*
+   - How do you configure and use the ADC and DAC in STM32?
+   - Explain how you would implement UART communication on an STM32 microcontroller.
+   - How do you set up and manage timers in STM32?
+   - What is the purpose of the DMA controller, and how would you configure it in STM32?
+
+4. *Memory Management:*
+   - Explain the different types of memory available in STM32.
+   - How do you perform Flash memory operations in STM32?
+   - How would you handle memory allocation in an STM32-based project?
+
+### *CAN Protocol:*
+1. *Basics and Applications:*
+   - What is the CAN protocol, and where is it commonly used?
+   - Explain the difference between CAN 2.0A and CAN 2.0B.
+   - How does the CAN protocol ensure data integrity?
+   - What are the advantages and limitations of the CAN protocol?
+
+2. *Configuration and Implementation:*
+   - How do you configure the CAN peripheral on an STM32 microcontroller?
+   - What are the key parameters to consider when setting up a CAN network?
+   - How would you implement CAN message filtering in STM32?
+   - Explain how CAN bus arbitration works.
+
+3. *Troubleshooting and Testing:*
+   - How do you debug a CAN communication issue?
+   - What tools and methods would you use to monitor and analyze CAN traffic?
+   - How do you handle error states in a CAN network?
+   - Explain how you would test the reliability of your CAN communication system.
+
+4. *Advanced Concepts:*
+   - What is CAN FD, and how does it differ from the standard CAN protocol?
+   - Explain the concept of a CANopen protocol and its layers.
+   - How do you implement real-time data transfer using CAN?
+   - What are the challenges of integrating multiple CAN devices in a single network?
+
+### *Project-Specific Questions:*
+1. *Project Overview:*
+   - Can you describe the overall architecture of your CDAC project using STM32 and CAN protocol?
+   - What specific challenges did you face while implementing the CAN protocol, and how did you overcome them?
+   - How did you ensure the reliability and efficiency of the communication in your project?
+
+2. *Code and Implementation:*
+   - Walk me through the code you wrote for initializing the CAN peripheral on the STM32.
+   - How did you manage message priorities and filtering in your CAN implementation?
+   - Did you use any specific libraries or tools to aid your development?
+
+3. *Optimization and Performance:*
+   - How did you optimize the CAN communication in your project for speed and efficiency?
+   - What steps did you take to minimize power consumption in your STM32-based project?
+   - How did you handle any latency or synchronization issues in your CAN network?
